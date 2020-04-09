@@ -2,6 +2,13 @@
 
 Monitor services for their availability with active probing. Heartbeat is a lightweight daemon that you install on a remote server to periodically check the status of your services and determine whether they are available.
 
+Heartbeat currently supports monitors for checking hosts via:
+
+- ICMP (v4 and v6) Echo Requests. Use the icmp monitor when you simply want to check whether a service is available. This monitor requires root access.
+- TCP. Use the tcp monitor to connect via TCP. You can optionally configure this monitor to verify the endpoint by sending and/or receiving a custom payload.
+- HTTP. Use the http monitor to connect via HTTP. You can optionally configure this monitor to verify that the service returns the expected response, such as a specific status code, response header, or content.
+- The tcp and http monitors both support SSL/TLS and some proxy settings.
+
 ## Installation:
 
 
