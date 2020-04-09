@@ -141,7 +141,7 @@ if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) 
         ForEach-Object {$_ -Replace 'elasticsearch-api-endpoint', "$($objTextBox4.Text)"} |
             Set-Content heartbeat.yml
 
-    (Get-Content filebeat.yml) |
+    (Get-Content heartbeat.yml) |
         ForEach-Object {$_ -Replace 'heartbeat-url', "$($objTextBox5.Text)"} |
             Set-Content heartbeat.ym
 
