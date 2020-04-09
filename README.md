@@ -23,7 +23,7 @@ Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/Heartcbeat/arch
 .\installHeartbeat.ps1
 ```
 
-4) When prompted, enter your credentials below as well as the URL that you would like to monitor and click OK.
+4) When prompted, enter your credentials below as well as the ```URL``` that you would like to monitor and click OK.
 
 ```css
 Kibana URL: _PLACEHOLDER_KIBANA_URL_
