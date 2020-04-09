@@ -42,3 +42,13 @@ Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 This will install and run heartbeat.
 
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
+
+<hr>
+
+## Example Dashboard
+
+Heartbeat comes with sample dashboards. For example:
+
+![Imgur](https://imgur.com/ppTSCGA.png)
+
+
